@@ -1,0 +1,34 @@
+.tools {
+    width: 100%;
+    background-color: rgb(216, 216, 212);
+    display: flex;
+}
+.elementTypeInt, .elementTypeCheck {
+    padding-right: 50px;
+    display: flex;
+}
+.column button {
+    border: none;
+    background-color: rgb(216, 216, 212);
+    margin: auto 3px;
+    text-align: center;
+    font-size: 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.first {
+    padding-left: 10px;
+}
+.column button:hover {
+    background-color: rgb(182, 182, 182);
+}
+input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+}

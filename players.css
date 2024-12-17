@@ -1,0 +1,130 @@
+.active {
+    background-color: rgb(240, 239, 239);
+}
+.metka {
+    background-color: rgb(248, 238, 193);
+}
+
+.color1 {
+    background-color: rgb(147, 253, 147);
+}
+#now div {
+    background-color: rgb(147, 253, 147);
+    width: 180px;
+    height: 180px;
+}
+.color2 {
+    background-color: rgb(255, 252, 70);
+}
+#now2 div {
+    background-color: rgb(255, 252, 70);
+    width: 180px;
+    height: 180px;
+}
+.color3 {
+    background-color: rgb(63, 217, 255);
+}
+#now3 div {
+    background-color: rgb(63, 217, 255);
+    width: 180px;
+    height: 180px;
+}
+.color4 {
+    background-color: rgb(253, 151, 17);
+}
+#now4 div {
+    background-color: rgb(253, 151, 17);
+    width: 180px;
+    height: 180px;
+}
+.color5 {
+    background-color: rgb(243, 62, 55);
+}
+#now5 div {
+    background-color: rgb(243, 62, 55);
+    width: 180px;
+    height: 180px;
+}
+#metka div {
+    background-color: rgb(248, 238, 193);
+    width: 180px;
+    height: 180px;
+}
+.color1.color2 {
+    background: linear-gradient(to right, rgb(147, 253, 147), rgb(255, 252, 70));
+}
+.color1.color3 {
+    background: linear-gradient(to right, rgb(147, 253, 147), rgb(63, 217, 255));
+}
+.color1.color4 {
+    background: linear-gradient(to right, rgb(147, 253, 147), rgb(253, 151, 17));
+}
+.color1.color5 {
+    background: linear-gradient(to right, rgb(147, 253, 147), rgb(243, 62, 55));
+}
+.color2.color3 {
+    background: linear-gradient(to right, rgb(255, 252, 70), rgb(63, 217, 255));
+}
+.color2.color4 {
+    background: linear-gradient(to right, rgb(255, 252, 70), rgb(253, 151, 17));
+}
+.color2.color5 {
+    background: linear-gradient(to right, rgb(255, 252, 70), rgb(243, 62, 55));
+}
+.color3.color4 {
+    background: linear-gradient(to right, rgb(63, 217, 255), rgb(253, 151, 17));
+}
+.color3.color5 {
+    background: linear-gradient(to right, rgb(63, 217, 255), rgb(243, 62, 55));
+}
+.color4.color5 {
+    background: linear-gradient(to right, rgb(253, 151, 17), rgb(243, 62, 55));
+}
+.color1.color2.color3 {
+    background: linear-gradient(to right, rgb(147, 253, 147), rgb(255, 252, 70), rgb(63, 217, 255));
+}
+.color1.color2.color4 {
+    background: linear-gradient(to right, rgb(147, 253, 147), rgb(255, 252, 70), rgb(253, 151, 17));
+}
+.color1.color2.color5 {
+    background: linear-gradient(to right, rgb(147, 253, 147), rgb(255, 252, 70), rgb(243, 62, 55));
+}
+.color2.color3.color4 {
+    background: linear-gradient(to right, rgb(255, 252, 70), rgb(63, 217, 255), rgb(253, 151, 17));
+}
+.color2.color3.color5 {
+    background: linear-gradient(to right, rgb(255, 252, 70), rgb(63, 217, 255), rgb(243, 62, 55));
+}
+.color2.color4.color5 {
+    background: linear-gradient(to right, rgb(255, 252, 70), rgb(253, 151, 17), rgb(243, 62, 55));
+}
+.color1.color3.color4 {
+    background: linear-gradient(to right, rgb(147, 253, 147), rgb(63, 217, 255), rgb(253, 151, 17));
+}
+.color1.color3.color5 {
+    background: linear-gradient(to right, rgb(147, 253, 147), rgb(63, 217, 255), rgb(243, 62, 55));
+}
+.color1.color4.color5 {
+    background: linear-gradient(to right, rgb(147, 253, 147), rgb(253, 151, 17), rgb(243, 62, 55));
+}
+.color3.color4.color5 {
+    background: linear-gradient(to right, rgb(63, 217, 255), rgb(253, 151, 17), rgb(243, 62, 55));
+}
+.color1.color2.color3.color4 {
+    background: linear-gradient(to right, rgb(147, 253, 147), rgb(255, 252, 70), rgb(63, 217, 255), rgb(253, 151, 17));
+}
+.color1.color2.color3.color5 {
+    background: linear-gradient(to right, rgb(147, 253, 147), rgb(255, 252, 70), rgb(63, 217, 255), rgb(243, 62, 55));
+}
+.color1.color2.color4.color5 {
+    background: linear-gradient(to right, rgb(147, 253, 147), rgb(255, 252, 70), rgb(253, 151, 17), rgb(243, 62, 55));
+}
+.color1.color3.color4.color5 {
+    background: linear-gradient(to right, rgb(147, 253, 147), rgb(63, 217, 255), rgb(253, 151, 17), rgb(243, 62, 55));
+}
+.color2.color3.color4.color5 {
+    background: linear-gradient(to right, rgb(255, 252, 70), rgb(63, 217, 255), rgb(253, 151, 17), rgb(243, 62, 55));
+}
+.color1.color2.color3.color4.color5 {
+    background: linear-gradient(to right, rgb(147, 253, 147), rgb(255, 252, 70), rgb(63, 217, 255), rgb(253, 151, 17), rgb(243, 62, 55));
+}

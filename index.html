@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="cells.css">
+        <link rel="stylesheet" href="icons.css">
+        <link rel="stylesheet" href="items.css">
+        <link rel="stylesheet" href="players.css">
+        <link rel="stylesheet" href="tools.css">
+        <link rel="stylesheet" href="tips.css">
+        <link rel="stylesheet" href="buttons.css"><link rel="stylesheet" href="select.css">
+        <title>
+            Название страницы
+        </title>
+        <meta charset="utf-8">
+    </head>
+    <body background="./images/fon.jpg">
+        <head>
+            <nav>
+                <div id="main"><p>Главная</p></div>
+                <a target="_blank" href="https://masterok.livejournal.com/805315.html?ysclid=lls14xlreq884738408#:~:text=11.%20%D0%9B%D0%B0%D0%B1%D0%B8%D1%80%D0%B8%D0%BD%D1%82%20%D1%81%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82%D0%B0%D0%BC%D0%B8">Ознакомиться с правилами</a>
+            </nav>
+            <div class="tools">
+                <div class="column first">
+                    <div>
+                        <p>Граната:</p>
+                    </div>
+                    <div>
+                        <p>Действия за ход:</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="elementTypeInt">
+                        <button class="minus">-</button>
+                        <p>0</p>
+                        <button class="plus">+</button>
+                    </div>
+                    <div class="elementTypeInt">
+                        <button class="minus">-</button>
+                        <p>1</p>
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div>
+                        <p>Верёвка:</p>
+                    </div>
+                    <div>
+                        <p>Пила:</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="elementTypeInt">
+                        <button class="minus">-</button>
+                        <p>0</p>
+                        <button class="plus">+</button>
+                    </div>
+                    <div class="elementTypeInt">
+                        <button class="minus">-</button>
+                        <p>0</p>
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div>
+                        <p>Бинокль:</p>
+                    </div>
+                    <div>
+                        <p>Кинжал:</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="elementTypeInt">
+                        <button class="minus">-</button>
+                        <p>0</p>
+                        <button class="plus">+</button>
+                    </div>
+                    <div class="elementTypeInt">
+                        <button class="minus">-</button>
+                        <p>0</p>
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div>
+                        <p>Бинт:</p>
+                    </div>
+                    <div>
+                        <p>Компас:</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="elementTypeInt">
+                        <button class="minus">-</button>
+                        <p>0</p>
+                        <button class="plus">+</button>
+                    </div>
+                    <div class="elementTypeInt">
+                        <button class="minus">-</button>
+                        <p>0</p>
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div>
+                        <p>Патроны:</p>
+                    </div>
+                    <div>
+                        <p>Кирпич:</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="elementTypeInt">
+                        <button class="minus">-</button>
+                        <p>0</p>
+                        <button class="plus">+</button>
+                    </div>
+                    <div class="elementTypeInt">
+                        <button class="minus">-</button>
+                        <p>0</p>
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div>
+                        <p>Пистолет:</p>
+                    </div>
+                    <div>
+                        <p>Ранение:</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="elementTypeCheck">
+                        <input type="checkbox">
+                    </div>
+                    <div class="elementTypeCheck">
+                        <input type="checkbox">
+                    </div>
+                </div>
+            </div>
+        </head>
+        <main>
+            <div class="box">
+                <select name="test" id="sel">
+                    <option value="0">Выберите размер поля</option>
+                    <option value="5">Размер: 5</option>
+                    <option value="6">Размер: 6</option>
+                    <option value="7">Размер: 7</option>
+                    <option value="8">Размер: 8</option>
+                    <option value="9">Размер: 9</option>
+                    <option value="10">Размер: 10</option>
+                    <option value="11">Размер: 11</option>
+                    <option value="12">Размер: 12</option>
+                    <option value="13">Размер: 13</option>
+                    <option value="14">Размер: 14</option>
+                    <option value="15">Размер: 15</option>
+                </select>
+            </div>
+            <div id="tables"></div>
+            <div class="panel">
+                <button id="now" class="glow-on-hover tooltip vis">Зелёный<span class="tooltiptext">Используется для отметки позиции (своей или противника)<div></div></span></button>
+                <button id="now2" class="glow-on-hover tooltip vis">Жёлтый<span class="tooltiptext">Используется для отметки позиции (своей или противника)<div></div></span></button>
+                <button id="now3" class="glow-on-hover tooltip vis">Голубой<span class="tooltiptext">Используется для отметки позиции (своей или противника)<div></div></span></button>
+                <button id="now4" class="glow-on-hover tooltip vis">Оранжевый<span class="tooltiptext">Используется для отметки позиции (своей или противника)<div></div></span></button>
+                <button id="now5" class="glow-on-hover tooltip vis">Красный<span class="tooltiptext">Используется для отметки позиции (своей или противника)<div></div></span></button>    
+                <button id="metka" class="glow-on-hover tooltip vis">Метка<span class="tooltiptext">Используется в личных целях. Например, отмечать пройденные ячейки<div></div></span></button>
+                <button id="ques" class="glow-on-hover tooltip vis">Вопрос<span class="tooltiptext">Используется для отметки непроверенного клада<img src="./images/Ques.png" alt=""></span></button>
+            </div>
+            <div class="panel">
+                <button id="treasure" class="glow-on-hover tooltip vis">Сокровище<span class="tooltiptext">Спрячьте Ваше сокровище подальше от глаз охотников<img src="./images/Treasure.png" alt=""></span></button>
+                <button id="empty" class="glow-on-hover tooltip vis">Ложное сокровище<span class="tooltiptext">Можно не бояться, если охотники найдут его<img src="./images/Empty.png" alt=""></span></button>
+                <button id="kapkan" class="glow-on-hover tooltip vis">Капкан<span class="tooltiptext">Пропуск 3 ходов игроком, наступившим в него<img src="./images/Kapkan.jpg" alt=""></span></button>
+                <button id="kost" class="glow-on-hover tooltip vis">Костыль<span class="tooltiptext">+1 действие за ход игроку, который подобрал его<img src="./images/kost.png" alt=""></span></button>
+                <button id="arb" class="glow-on-hover tooltip vis">Арбалет<span class="tooltiptext">+1 действие за ход противнику игрока, который подобрал его<img src="./images/Arb.png" alt=""></span></button>
+                <button id="rope" class="glow-on-hover tooltip vis">Верёвка<span class="tooltiptext">Можно перелезть через стену не разрушая её<img src="./images/Rope.png" alt=""></span></button>
+                <button id="gren" class="glow-on-hover tooltip vis">Граната<span class="tooltiptext">Можно взорвать стену навсегда<img src="./images/Gren.png" alt=""></span></button>
+                <button id="arsenal" class="glow-on-hover tooltip vis">Арсенал<span class="tooltiptext">Здесь можно пополнить запасы боеприпасов<img src="./images/Arsenal.png" alt=""></span></button>
+                <button id="map" class="glow-on-hover tooltip vis">Карта сокровищ<span class="tooltiptext">Узнай, где находятся сокровища<img src="./images/Map.png" alt=""></span></button>
+                <button id="saw" class="glow-on-hover tooltip vis">Пила<span class="tooltiptext">Можно деактивировать капкан<img src="./images/Saw.png" alt=""></span></button>
+                <button id="torch" class="glow-on-hover tooltip vis">Факел<span class="tooltiptext">В течение трёх ходов можно видеть всё вокруг себя<img src="./images/Torch.png" alt=""></span></button>
+            </div>
+            <div class="panel">
+                <button id="lamp" class="glow-on-hover tooltip vis">Бинокль<span class="tooltiptext">По выбранной линии смотришь все клетки до ближайшей стены<img src="./images/Lamp.jpg" alt=""></span></button>
+                <button id="nature" class="glow-on-hover tooltip vis">Карта местности<span class="tooltiptext">Карта показывает все стены на местности в договорённом диапазоне (без предметов)<img src="./images/Nature.png" alt=""></span></button>
+                <button id="yama" class="glow-on-hover tooltip vis">Карта ямы<span class="tooltiptext">Карта показывает вход и выход любой ямы<img src="./images/Yama.png" alt=""></span></button>
+                <button id="gun" class="glow-on-hover tooltip vis">Пистолет<span class="tooltiptext">Можно стрелять во врагов по прямой(требует патроны)<img src="./images/Gun.png" alt=""></span></button>
+                <button id="dagger" class="glow-on-hover tooltip vis">Кинжал<span class="tooltiptext">Находясь в одной клетке с противником, можно его ранить<img src="./images/Dagger.png" alt=""></span></button>
+                <button id="hosp" class="glow-on-hover tooltip vis">Больница<span class="tooltiptext">Место, где можно вылечиться после ранения или огнестрела<img src="./images/Hospital.png" alt=""></span></button>
+                <button id="bandage" class="glow-on-hover tooltip vis">Бинт<span class="tooltiptext">Позволяет излечиться за пределами больницы<img src="./images/Bandage.png" alt=""></span></button>
+                <button id="cartridges" class="glow-on-hover tooltip vis">Патроны<span class="tooltiptext">Патроны для пистолета<img src="./images/Catridges.png" alt=""></span></button>
+                <button id="compass" class="glow-on-hover tooltip vis">Компас<span class="tooltiptext">Позволяет определить своё местоположение в лабиринте<img src="./images/Compass.png" alt=""></span></button>
+                <button id="trace" class="glow-on-hover tooltip vis">След<span class="tooltiptext">Найти по следам выход из лабиринта в желаемой стороне<img src="./images/Trace.png" alt=""></span></button>
+                <button id="brick" class="glow-on-hover tooltip vis">Кирпич<span class="tooltiptext">Можно построить стену, при этом не создав замкнутое пространство<img src="./images/Brick.png" alt=""></span></button>
+                <button id="exit" class="glow-on-hover tooltip vis">Выход<span class="tooltiptext">Выход из лабиринт (зайти назад можно только здесь же)<img src="./images/Exit.png" alt=""></span></button>
+            </div> 
+        </main>
+        <footer>
+            <div id="forcen">
+                <table id="extra"></table>
+                <button id="clear" class="vis">Очистить</button>
+            </div>
+        </footer>
+        <script src="tables.js?v=1"></script>
+        <script src="tools.js?v=1"></script>
+        <script src="script.js?v=1"></script>
+    </body>
+</html>

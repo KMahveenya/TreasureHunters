@@ -1,0 +1,96 @@
+.treasure {
+    background-image: url('./images/Treasure.png');
+    background-size:cover;
+}
+.kapkan {
+    background-image: url('./images/Kapkan.jpg');
+    background-size: cover;
+}
+.arb {
+    background-image: url('./images/Arb.png');
+    background-size: cover;
+}
+.empty {
+    background-image: url('./images/Empty.png');
+    background-size: cover;
+}
+.kost {
+    background-image: url('./images/kost.png');
+    background-size: cover;
+}
+.rope {
+    background-image: url('./images/Rope.png');
+    background-size: cover;
+}
+.gren {
+    background-image: url('./images/Gren.png');
+    background-size: cover;
+}
+.arsenal {
+    background-image: url('./images/Arsenal.png');
+    background-size: cover;
+}
+.map {
+    background-image: url('./images/Map.png');
+    background-size: cover;
+}
+.saw {
+    background-image: url('./images/Saw.png');
+    background-size: cover;
+}
+.torch {
+    background-image: url('./images/Torch.png');
+    background-size: cover;
+}
+.lamp {
+    background-image: url('./images/Lamp.jpg');
+    background-size: cover;
+}
+.ques {
+    background-image: url('./images/Ques.png');
+    background-size: cover;
+}
+.nature {
+    background-image: url('./images/Nature.png');
+    background-size: cover;
+}
+.yama {
+    background-image: url('./images/Yama.png');
+    background-size: cover;
+}
+.gun {
+    background-image: url('./images/Gun.png');
+    background-size: cover;
+}
+.dagger {
+    background-image: url('./images/Dagger.png');
+    background-size: cover;
+}
+.hosp {
+    background-image: url('./images/Hospital.png');
+    background-size: cover;
+}
+.bandage {
+    background-image: url('./images/Bandage.png');
+    background-size: cover;
+}
+.cartridges {
+    background-image: url('./images/Catridges.png');
+    background-size: cover;
+}
+.compass {
+    background-image: url('./images/Compass.png');
+    background-size: cover;
+}
+.trace {
+    background-image: url('./images/Trace.png');
+    background-size: cover;
+}
+.brick {
+    background-image: url('./images/Brick.png');
+    background-size: cover;
+}
+.exit {
+    background-image: url('./images/Exit.png');
+    background-size: cover;
+}

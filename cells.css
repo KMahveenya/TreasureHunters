@@ -1,0 +1,24 @@
+.nl_top {
+    text-align: center;
+    border-top: rgb(155, 155, 155) 3px solid;
+    border-left: rgb(155, 155, 155) 3px solid;
+    border-right: rgb(155, 155, 155) 3px solid;
+}
+.nl_left {
+    text-align: center;
+    border-top: rgb(155, 155, 155) 3px solid;
+    border-left: rgb(155, 155, 155) 3px solid;
+    border-bottom: rgb(155, 155, 155) 3px solid;
+}
+.right {
+    border-right: black 3px solid;
+}
+.left {
+    border-left: black 3px solid;
+}
+.top {
+    border-top: black 3px solid;
+}
+.bottom {
+    border-bottom: black 3px solid;
+}
